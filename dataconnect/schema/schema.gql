@@ -1,0 +1,50 @@
+type User @table {
+  displayName: String!
+  email: String!
+  createdAt: Timestamp!
+  phoneNumber: String
+  photoUrl: String
+}
+
+type CarWashBusiness @table {
+  name: String!
+  address: String!
+  city: String!
+  state: String!
+  zipCode: String!
+  createdAt: Timestamp!
+  phoneNumber: String
+  website: String
+  description: String
+}
+
+type Service @table {
+  carWashBusiness: CarWashBusiness!
+  name: String!
+  price: Float!
+  durationMinutes: Int!
+  createdAt: Timestamp!
+  description: String
+}
+
+type Booking @table {
+  user: User!
+  service: Service!
+  carWashBusiness: CarWashBusiness!
+  bookingDate: Date!
+  bookingTime: String!
+  status: String!
+  createdAt: Timestamp!
+  notes: String
+}
+
+type AvailabilitySlot @table {
+  carWashBusiness: CarWashBusiness!
+  service: Service!
+  slotDate: Date!
+  slotTime: String!
+  capacity: Int!
+  isBooked: Boolean!
+  createdAt: Timestamp!
+  notes: String
+}
