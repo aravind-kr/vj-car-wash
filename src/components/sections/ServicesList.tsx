@@ -11,7 +11,7 @@ export default function ServicesList() {
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             From quick washes to comprehensive detailing, our professional team
-            delivers exceptional results tailored to your vehicle's needs.
+            delivers exceptional results tailored to your vehicle&apos;s needs.
           </p>
         </div>
 

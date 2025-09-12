@@ -48,7 +48,7 @@ export default function DetailedServiceCard({ service }: DetailedServiceCardProp
       </div>
       
       <div className="flex-1">
-        <h4 className="font-semibold text-gray-900 dark:text-white mb-4">What's Included:</h4>
+        <h4 className="font-semibold text-gray-900 dark:text-white mb-4">What&apos;s Included:</h4>
         <ul className="space-y-2 mb-8">
           {service.features.map((feature, index) => (
             <li key={index} className="flex items-start space-x-3">

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import ServiceSelection from "./ServiceSelection";
 import DateTimePicker from "./DateTimePicker";
@@ -52,7 +52,6 @@ export default function BookingForm() {
     try {
       // Submit booking to Firebase
       const bookingId = await BookingService.createBooking(bookingData);
-      const confirmationNumber = BookingService.generateBookingNumber();
 
       setSubmitStatus({
         type: "success",

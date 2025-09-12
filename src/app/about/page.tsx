@@ -30,7 +30,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
                 <p className="text-lg text-gray-700 mb-6">
                   VJ Car Wash was founded with a simple mission: to provide exceptional car care services 
-                  that exceed our customers' expectations. What started as a small family business has grown 
+                  that exceed our customers&apos; expectations. What started as a small family business has grown 
                   into one of the most trusted car wash services in the region.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">

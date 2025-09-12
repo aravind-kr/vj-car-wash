@@ -54,7 +54,7 @@ export default function ImageUpload({ images, onImagesChange }: ImageUploadProps
           Upload Images (Optional)
         </label>
         <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-          Show us your vehicle's current condition. This helps us provide better service. Maximum 5 images.
+          Show us your vehicle&apos;s current condition. This helps us provide better service. Maximum 5 images.
         </p>
       </div>
 

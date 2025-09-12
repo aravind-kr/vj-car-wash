@@ -2,7 +2,7 @@
 
 import Navigation from "../../components/layout/Navigation";
 import Footer from "../../components/layout/Footer";
-import BookingForm from "../../components/forms/BookingForm";
+import BookingFormWrapper from "../../components/forms/BookingFormWrapper";
 
 export default function BookingPage() {
   return (
@@ -19,7 +19,7 @@ export default function BookingPage() {
           </p>
         </div>
 
-        <BookingForm />
+        <BookingFormWrapper />
       </main>
 
       <Footer />

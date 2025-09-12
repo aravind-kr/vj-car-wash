@@ -8,8 +8,7 @@ import {
   getDoc, 
   query, 
   where, 
-  orderBy, 
-  Timestamp 
+  orderBy 
 } from 'firebase/firestore';
 import { db } from './firebase';
 import { BookingData, SERVICES } from './types';
