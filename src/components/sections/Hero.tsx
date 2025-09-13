@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <div className="text-center">
@@ -10,12 +12,12 @@ export default function Hero() {
         Book online and experience the VJ Car Wash difference.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
+        <Link href="/booking" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors text-center">
           Book Appointment
-        </button>
-        <button className="bg-white hover:bg-gray-50 text-blue-600 border border-blue-600 font-semibold py-3 px-8 rounded-lg transition-colors">
+        </Link>
+        <Link href="/services" className="bg-white hover:bg-gray-50 text-blue-600 border border-blue-600 font-semibold py-3 px-8 rounded-lg transition-colors text-center">
           View Services
-        </button>
+        </Link>
       </div>
     </div>
   );
